@@ -1,0 +1,236 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  width: 100%;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  padding: 20px 20px;
+}
+
+header .container {
+  max-width: 1170px;
+  /* width: 100%; */
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  color: white;
+  font-weight: bold;
+}
+
+.header-left {
+  float: left;
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+  margin-top: 20px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  opacity: 0;
+}
+.top-wrapper{
+  padding: 220px 0 230px 0;
+  background: linear-gradient(to right, #eb3b5a, #5f27cd) ;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.top-wrapper h1{
+  font-size: 36px
+}
+.top-wrapper h1, p, span{
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
+}
+
+header .btn {
+  padding: 12px 24px;
+  color:white;
+  background-color: #3742fa;
+  display: inline-block;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.about-wrapper{
+  color:rgb(255, 255, 255);
+  font-size: 32 px;
+  padding: 10px 80px;
+  background-image: url(Backgroundn.png);
+  background-size:cover;
+  height: 500px;
+}
+
+.container{
+  opacity: 0.8;
+  margin-bottom: 3px;
+  padding-top: 70px;
+}
+.about-wrapper p {
+  font-size: 21 px;
+  padding: 0px 0px 10px ;
+  margin: 0px 0px 10px ;
+  font-weight:normal;
+  
+}
+
+.visimi{
+  float: left;
+  width:50%;
+
+}
+
+.visimi-icon{
+  position: relative;
+}
+
+.visimi-icon p{
+  margin-top:5px;
+  font-weight:bold;
+}
+.txt-contents {
+  width: 80%;
+  margin-top: 12px;
+  font-size: 18px;
+  display: inline-block;
+  position:relative;
+}
+.team-member{
+  text-align: center;
+  height: 540px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0px auto;
+}
+.team-member h2{
+  text-align: center;
+  font-size: 28px;
+}
+.team-member hr{
+  width: 20%;
+}
+.team-member img{
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+.member{
+  margin-top: 50px;
+  float: left;
+  width: 20%;
+}
+
+.contacts{
+  text-align: center;
+}
+.contact h2{
+  text-align: center;
+}
+.contacts-section{
+  display: flex;
+}
+.contacts{
+  width: 33.33%;
+}
+.contact hr{
+  width: 20%;
+  margin-bottom: 80px;
+  border: 1px solid blue;
+}
+.contact{
+  padding-top: 50px;
+  padding-bottom: 90px;
+  background-color: #381249;
+  color: white;
+}
+.contacts-section .fa{
+  font-size: 28px;
+}
+
+.contacts-section h3{
+  padding-bottom: 20px;
+}
+
+.btn-contact{
+  padding: 10px 20px;
+  background-color: #8e44ad;
+  border-radius:15px;
+}
+
+.footer {
+  background: linear-gradient(to right, #9b59b6, #8e44ad, #1a17e4);
+  color: #fff;
+  height: 70px;
+  padding-left: 30px;
+  padding-right: 30px; 
+  font-weight: bold;
+}
+.footer-logo {
+  float: left;
+  font-size: 15px;
+  margin-left: 10px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+.footer-copy {
+  float: right;
+  padding: 5px;
+  font-size: 18px;
+}
+.row{
+  display: block;
+  width: 100%;
+}
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+float: left;
+padding: 15px;
+text-align: center;
+}
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
